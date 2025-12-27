@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  srcDir: "../lectures",
+  srcDir: "../Lectures",
   base: "/EP_Lecture_Notes/",
   lang: "zh-CN",
   title: "EP Lecture Notes",

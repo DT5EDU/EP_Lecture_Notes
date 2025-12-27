@@ -17,6 +17,9 @@ export default defineConfig({
       { text: 'GitHub', link: 'https://github.com/DT5EDU/EP_Lecture_Notes' },
       { text: "StudyHub", link: "https://www.study-hub.store/materials/179" }
     ],
+    search: {
+      provider: 'local'
+    },
 
     sidebar: [
       {

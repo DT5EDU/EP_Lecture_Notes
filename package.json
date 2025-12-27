@@ -1,0 +1,23 @@
+{
+  "name": "ep-lecture-notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev config",
+    "build": "vitepress build config",
+    "preview": "vitepress preview config"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "install": "^0.13.0",
+    "vitepress": "2.0.0-alpha.15"
+  },
+  "dependencies": {
+    "markdown-it-mathjax3": "^4.3.2"
+  }
+}
